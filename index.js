@@ -3,6 +3,11 @@ let app = express();
 
 let PORT = 3000;    // PORT YOU WANT TO RUN YOUR SERVER ON
 
+// ROUTER
+let addRouter = require('./routes/add');
+
+app.use('/add',addRouter);
+
 // GET Request to Server /
 app.get('/',function(req,res){
     res.send("Hi");
