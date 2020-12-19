@@ -3,6 +3,8 @@ let app = express();
 
 let PORT = 3000;    // PORT YOU WANT TO RUN YOUR SERVER ON
 
+require('./config/database');       // CONNECT TO DATABASE
+
 // ROUTER
 let addRouter = require('./routes/add');
 
