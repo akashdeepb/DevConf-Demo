@@ -10,6 +10,8 @@ router.get('/',function(req,res){
 
 // POST REQUEST
 router.post('/',function(req,res){
+
+    console.log(req.body);
     let newItem = new item({
         name : req.body.name
     });
