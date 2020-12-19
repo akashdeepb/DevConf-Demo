@@ -1,6 +1,6 @@
 let mongoose = require('mongoose');
 
-const DB_URI = 'mongodb+srv://akashdeepb:p2r7ls8MTtMi0ipT@soscluster-utlqu.mongodb.net/test?retryWrites=true&w=majority';
+const DB_URI = 'mongodb+srv://akashdeepb:p2r7ls8MTtMi0ipT@cluster0-utlqu.mongodb.net/test?retryWrites=true&w=majority';
 
 const options = {
     useNewUrlParser: true,
